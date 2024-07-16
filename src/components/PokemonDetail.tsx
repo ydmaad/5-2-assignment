@@ -28,6 +28,8 @@ const PokemonDetail = async ({ id }: { id: string }) => {
   // abilities: response.data.ability.name.korean_name,
   // moves: response.data.move.name.korean_name,
   // };
+  const alsdo = "alsdo";
+  console.log(alsdo);
 
   return (
     <>
