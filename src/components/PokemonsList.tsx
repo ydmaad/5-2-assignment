@@ -35,7 +35,7 @@ export default function PokemonList() {
               <button className="border-dashed border-2 m-3 p-4 border-black">
                 <div>
                   <Image
-                    src={mon.sprites.other.home.front_default}
+                    src={mon.sprites.other.showdown.front_default}
                     alt={mon.korean_name}
                     width={110}
                     height={110}

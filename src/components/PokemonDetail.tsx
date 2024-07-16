@@ -16,7 +16,7 @@ const PokemonDetail = async ({ id }: { id: string }) => {
   console.log(response.data);
 
   const pokemon = response.data;
-
+  // github template 테스트 한 번 해보자!!
   // const {weight,korean_name} = response.data
   // {
   //   id: response.data.id,
@@ -36,7 +36,7 @@ const PokemonDetail = async ({ id }: { id: string }) => {
         <div>NO. {pokemon.id}</div>
 
         <Image
-          src={pokemon.sprites.other.home.front_default}
+          src={pokemon.sprites.other.showdown.front_default}
           alt={"포켓몬사진"}
           width={110}
           height={110}
