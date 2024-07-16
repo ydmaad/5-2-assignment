@@ -16,6 +16,7 @@ const PokemonDetail = async ({ id }: { id: string }) => {
   console.log(response.data);
 
   const pokemon = response.data;
+
   // github template 테스트 한 번 해보자!!
   // const {weight,korean_name} = response.data
   // {
@@ -28,8 +29,6 @@ const PokemonDetail = async ({ id }: { id: string }) => {
   // abilities: response.data.ability.name.korean_name,
   // moves: response.data.move.name.korean_name,
   // };
-  const alsdo = "alsdo";
-  console.log(alsdo);
 
   return (
     <>
